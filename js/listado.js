@@ -4,3 +4,15 @@ const listNombres = ['Pc Mac', 'Auriculares', 'Pc Mac Otro Modelo', 'Tablet', 'A
 const precios = [45000, 2000, 37000, 1500, 4000, 16000, 8000, 22000, 999];
 const stock = [1,42, 3, 200, 342, 10, 100, 6, 0]
 
+const Producto = function(nombreProd,preciosProd, stockProd) {
+    this.nombre = nombreProducto, 
+    this.precios = preciosProd,
+    this.stock = stockProd
+}
+
+// Nombre
+// Imagen
+// Precio
+// Detalle
+// Stock
+// Favorito
